@@ -4,11 +4,11 @@ function e(){
 };
 function f(){
     echo "This is f() \n";
-    return e();
+    return 'e';
 };
 function g(){
     echo "This is g() \n";
-    return f();
+    return 'f';
 };
 g();
 echo "***********\n";
